@@ -1,0 +1,80 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    position: relative;
+    top: 125px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(44,48,146,255) ;
+    margin-left: 200px;
+}
+.container{
+    width: max-content;
+    margin: auto;
+}
+.card{  
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgba(212,220,229,255);
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-top: 150px;   
+}
+.aimain, .micromain, .datamain{
+    font-size: 24px;
+    margin-top: 34px;
+    color: rgba(34,35,35,255);
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+.aiimg, .microimg, .dataimg{
+    width: 190px;
+    height: 190px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+.aitxt, .microtxt, .datatxt{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 17px;
+    color: rgba(102,111,122,255);
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    width: 189px;
+    height: 56px;
+    padding: 0px 46px 0px 24px;
+    font-weight: 600;
+    font-size: 15px;
+    color:rgba(34,35,35,255);
+    margin-left: 700px;
+    margin-top: 10px;
+    border: 3px solid rgba(212,220,229,255);;
+    background-color: transparent;
+    border-radius: 11px;
+}
+.button:hover{
+    border-color: rgba(255,146,31,255);
+    transition: 0.4s;
+}
+.btnimg{
+    position: relative;
+    top: 0px;
+    left: 43px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
